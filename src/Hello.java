@@ -7,7 +7,12 @@ public class Hello {
         boolean isAlien = false;
         if (!isAlien) {
             System.out.println("It is not an alien!");
-            System.out.print("and I am scared of aliens");
+            System.out.println("and I am scared of aliens");
+        }
+
+        int topScore = 100;
+        if (topScore == 100) {
+            System.out.println("You got the high score!");
         }
     }
 }
